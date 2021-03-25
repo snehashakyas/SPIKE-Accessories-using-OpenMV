@@ -12,6 +12,7 @@ How to use set-up OpenMV Color Sensor codes:
 
 
 Using "Color Sensor OpenMV.py" in OpenMV IDE:
+
 This code senses one color at a time, each time the code is run. Here is how to scan a color.
 1. You have 5 seconds to place the OpenMV camera in front of the object to be scanned. 
 2. Place the OpenMV camera 2 cm in front of the object to be scanned. 
@@ -19,11 +20,13 @@ This code senses one color at a time, each time the code is run. Here is how to 
 
 
 Using "UserPick OpenMV.py" in OpenMV IDE:
+
 This code allows the user to pick a set of LAB color values they would like to sense, and notifies the user when they have scanned the wanted color. 
 1. Move the OpenMV camera around until you are notified that the specified LAB colors have been detected.
 
 
 Using "InfiniteSensing OpenMV.py" in OpenMV IDE:
+
 This code senses colors as the OpenMV camera is being moved around in its surroundings, and updates the user with a new detected color each time a color has been detected. 
 1. Move the OpenMV camera around to detect colors.
 
