@@ -94,4 +94,4 @@ while(sensed == False):
     and threshold[3] <= AMax and threshold[4] >= BMin and threshold[5] <= BMax):
         sensed = True
         print("Color with specified LAB values detected.")
-        uart.write("Color detected")
+        uart.write("Detected")
