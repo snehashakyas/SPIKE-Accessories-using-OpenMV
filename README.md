@@ -22,14 +22,9 @@ Color detection as the OpenMV camera is being moved around its surroundings. SPI
 
 User picks a set of LAB color values they would like to sense, and SPIKE pRIME notifies the user when they have scanned the wanted color. 
 
-1. Connect the SPIKE Prime to your computer using a microUSB cable and open "Color Sensor SPIKE.py" to run on your SPIKE Prime.
-2. Connect your OpenMV to your computer using a microUSB cable and open "InfiniteSensing OpenMV.py" to run on your OpenMV IDE.
+1. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode2 SPIKE.py" to run on your SPIKE Prime. Input specific LAB values you want to detect in the location indicated in the code.
+2. Connect your OpenMV to your computer using a microUSB cable and open "ColorSensor Mode2 OPENMV.py" to run on your OpenMV IDE.
 3. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
 4. Run the code on the SPIKE Prime and OpenMV simultaneously.
-5. Move the OpenMV camera around to detect colors. The colors detected will show up on the SPIKE Prime.
-
-Using "UserPick OpenMV.py" in OpenMV IDE:
-
-1. Move the OpenMV camera around until you are notified that the specified LAB colors have been detected.
-
+6. Move the OpenMV camera around to detect the specified LAB values. The code will run until the LAB values have been detected and you are notified through SPIKE.
 
