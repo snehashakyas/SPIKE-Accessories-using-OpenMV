@@ -4,6 +4,7 @@
 2. Face detector.
 
 ---------- COLOR SENSOR ----------
+
 The OpenMV detects the solid block color placed fully enclosed by the OpenMV camera. It then sends the data to a LEGO SPIKE Prime.
 
 ~Mode #1: Color detection as the OpenMV camera is being moved around its surroundings. SPIKE Prime updates the user with a new detected color each time a color has been detected. 
