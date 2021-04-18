@@ -3,11 +3,11 @@
 1. Color sensors (two different modes).
 2. Face detector.
 
----------- COLOR SENSOR ----------
+---------- COLOR SENSOR -------------------------------------------------------------------------------------------------------
 
 The OpenMV detects the solid block color placed fully enclosed by the OpenMV camera. It then sends the data to a LEGO SPIKE Prime.
 
-~Mode #1: Color detection as the OpenMV camera is being moved around its surroundings. SPIKE Prime updates the user with a new detected color each time a color has been detected. 
+Mode #1: Color detection as the OpenMV camera is being moved around its surroundings. SPIKE Prime updates the user with a new detected color each time a color has been detected. 
 
 Using "InfiniteSensing OpenMV.py" in OpenMV IDE:
 
@@ -25,7 +25,5 @@ Using "UserPick OpenMV.py" in OpenMV IDE:
 
 This code allows the user to pick a set of LAB color values they would like to sense, and notifies the user when they have scanned the wanted color. 
 1. Move the OpenMV camera around until you are notified that the specified LAB colors have been detected.
-
-
 
 
