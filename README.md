@@ -1,4 +1,4 @@
-# OpenMV-Color-Sensor
+# SPIKE-Accessories-using-OpenMV
 Creating a color sensor using OpenMV
 
 The OpenMV detects the color placed in front of it, and sends the data to a LEGO SPIKE Prime.
