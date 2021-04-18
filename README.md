@@ -31,3 +31,10 @@ User picks a set of LAB color values they would like to sense, and SPIKE pRIME n
 Face Detector
 --------------- 
 
+The OpenMV detects a face, and informs SPIKE Prime once a face has been detected.
+
+1. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode1 SPIKE.py" to run on your SPIKE Prime.
+2. Connect your OpenMV to your computer using a microUSB cable and open "FaceDetector OPENMV.py" to run on your OpenMV IDE.
+3. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
+4. Run the code on the SPIKE Prime and OpenMV simultaneously.
+5. Move the OpenMV camera around to detect a face. The code will run until a face has been detected and you are notified through SPIKE. 
