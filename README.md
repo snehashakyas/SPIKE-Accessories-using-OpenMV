@@ -28,3 +28,6 @@ User picks a set of LAB color values they would like to sense, and SPIKE pRIME n
 4. Run the code on the SPIKE Prime and OpenMV simultaneously.
 6. Move the OpenMV camera around to detect the specified LAB values. The code will run until the LAB values have been detected and you are notified through SPIKE.
 
+Face Detector
+--------------- 
+
