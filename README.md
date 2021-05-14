@@ -61,13 +61,11 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
 5. Run the code on the SPIKE Prime.
 6. Type the following on the REPL:
 
-    import openmv
-    
-    <variable_name> = openmv.OPENMV(hub.port.<port_letter>, <baud_rate>)
-   
-    while(True):
-    
-      <variable_name>.readColors() # or <variable_name>.readFaceRecog() if you want to run Face Detector instead of Color Sensor
+       import openmv
+       <variable_name> = openmv.OPENMV(hub.port.<port_letter>, <baud_rate>)
+       while(True):
+           <variable_name>.readColors() # or <variable_name>.readFaceRecog() if you want to run Face Detector instead of Color Sensor
+           
     
 7. Move the OpenMV camera around to detect colors, or to detect a face. 
    For Color Sensor: colors detected will show up on the SPIKE Prime
