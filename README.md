@@ -21,9 +21,9 @@ Color detection as the OpenMV camera is being moved around its surroundings. SPI
 
 1. (Needed to have uploaded "ColorSensor Mode1 OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode1 SPIKE.py" to run on your SPIKE Prime.
-3. Connect your OpenMV to your computer using a microUSB cable.
-4. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
-5. Run the code on the SPIKE Prime.
+3. Run the code on the SPIKE Prime.
+4. Connect your OpenMV to your computer using a microUSB cable.
+5. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
 6. Move the OpenMV camera around to detect colors. The colors detected will show up on the SPIKE Prime.
 
 ---------- MODE #2 ----------
@@ -32,9 +32,9 @@ User picks a set of LAB color values they would like to sense, and SPIKE pRIME n
 
 1. (Needed to have uploaded "ColorSensor Mode2 OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode2 SPIKE.py" to run on your SPIKE Prime. Input specific LAB values you want to detect in the location indicated in the code.
-3. Connect your OpenMV to your computer using a microUSB cable.
-4. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
-5. Run the code on the SPIKE Prime.
+3. Run the code on the SPIKE Prime.
+4. Connect your OpenMV to your computer using a microUSB cable.
+5. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
 6. Move the OpenMV camera around to detect the specified LAB values. The code will run until the LAB values have been detected and you are notified through SPIKE.
 
 Face Detector
@@ -44,9 +44,9 @@ The OpenMV detects a face, and informs SPIKE Prime once a face has been detected
 
 1. (Needed to have uploaded "FaceDetector OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode1 SPIKE.py" to run on your SPIKE Prime.
-3. Connect your OpenMV to your computer using a microUSB cable.
-4. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
-5. Run the code on the SPIKE Prime.
+3. Run the code on the SPIKE Prime.
+4. Connect your OpenMV to your computer using a microUSB cable.
+5. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
 6. Move the OpenMV camera around to detect a face. The code will run until a face has been detected and you are notified through SPIKE. 
 
 Menu Options with both Color Sensor and Face Detector.
@@ -56,17 +56,16 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
 
 1. (Needed to have uploaded "Combined OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "Combined SPIKE.py" to run on your SPIKE Prime.
-3. Connect your OpenMV to your computer using a microUSB cable.
-4. Connect the OpenMV to the SPIKE Prime in any port of the SPIKE Prime using the white wire coming out of the OpenMV. (The user will need to specify which port they use later.)
-5. Run the code on the SPIKE Prime.
-6. Type the following on the REPL:
+3. Run the code on the SPIKE Prime.
+4. Type the following on the REPL:
 
        import openmv
        <variable_name> = openmv.OPENMV(hub.port.<port_letter>, <baud_rate>)
        while(True):
            <variable_name>.readColors() # or <variable_name>.readFaceRecog() if you want to run Face Detector instead of Color Sensor
            
-    
+5. Connect your OpenMV to your computer using a microUSB cable.
+6. Connect the OpenMV to the SPIKE Prime in any port of the SPIKE Prime using the white wire coming out of the OpenMV. (The user will need to specify which port they use later.)
 7. Move the OpenMV camera around to detect colors, or to detect a face. 
    For Color Sensor: colors detected will show up on the SPIKE Prime
    For Face Detector: the code will run until a face has been detected and you are notified through SPIKE. 
