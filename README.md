@@ -54,8 +54,8 @@ Menu Options with both Color Sensor and Face Detector.
 
 The user identifies which mode they would like to perform: Color Sensor or Face Detector. The appropriate code then runs.
 
-1. (Needed to have uploaded "REPLACE" on your OpenMV.)
-2. Connect the SPIKE Prime to your computer using a microUSB cable and open "REPLACE.py" to run on your SPIKE Prime.
+1. (Needed to have uploaded "Combined OPENMV.py" on your OpenMV.)
+2. Connect the SPIKE Prime to your computer using a microUSB cable and open "Combined SPIKE.py" to run on your SPIKE Prime.
 3. Connect your OpenMV to your computer using a microUSB cable.
 4. Connect the OpenMV to the SPIKE Prime in any port of the SPIKE Prime using the white wire coming out of the OpenMV. (The user will need to specify which port they use later.)
 5. Run the code on the SPIKE Prime.
