@@ -6,7 +6,7 @@
 
 For all accessories, the user needs to:
 
-1. Upload the appropriate OpenMV script on it so that the OpenMV code runs automatically when connected. To save the script on the OpenMV, open the IDE code and go to: Tools > Save script to OpenMV. The appropriate OpenMV script is specified in the accessory-specific instructions below.
+1. Upload the appropriate OpenMV script on it so that the OpenMV code runs automatically when connected. To save the script on the OpenMV, open the IDE code and go to: Tools > Save open script to OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions below.
 2. Connect the SPIKE Prime to their computer and run a script or write code on the REPL to interact with the SPIKE Prime.
 3. Then connect the OpenMV to the computer and SPIKE, as specified on the accessory-specific instructions below.
 
