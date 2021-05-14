@@ -126,7 +126,7 @@ def sendFace():
         time.sleep(1000)
 
 while True:
-    stringInput = "null"
+    #stringInput = "null"
     input = uart.readline(6)
     stringInput = str(input)
     #print(stringInput)
