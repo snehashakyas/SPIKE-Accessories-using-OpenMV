@@ -64,6 +64,8 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
 import openmv
 <variable_name> = openmv.OPENMV(hub.port.<port_letter>, <baud_rate>)
 while(True):
-    <variable_name>.
+    <variable_name>.readColors() # or <variable_name>.readFaceRecog() if you want to run the Face Detector instead of the Color Sensor
     
-8. Move the OpenMV camera around to detect a face. The code will run until a face has been detected and you are notified through SPIKE. 
+7. Move the OpenMV camera around to detect colors, or to detect a face. 
+   For Color Sensor: colors detected will show up on the SPIKE Prime
+   For Face Detector: the code will run until a face has been detected and you are notified through SPIKE. 
