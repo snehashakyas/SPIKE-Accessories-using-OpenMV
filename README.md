@@ -66,6 +66,4 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
            
 5. Connect your OpenMV to your computer using a microUSB cable.
 6. Connect the OpenMV to the SPIKE Prime in any port of the SPIKE Prime using the white wire coming out of the OpenMV. (The user will need to specify which port they use later.)
-7. Move the OpenMV camera around to detect colors, or to detect a face. 
-   For Color Sensor: colors detected will show up on the SPIKE Prime
-   For Face Detector: the code will run until a face has been detected and you are notified through SPIKE. 
+7. Move the OpenMV camera around to detect colors, or to detect a face. For Color Sensor: colors detected will show up on the SPIKE Prime. For Face Detector: the code will run until a face has been detected and you are notified through SPIKE. 
