@@ -12,10 +12,12 @@ class OPENMV:
         self.s.write('$color')
         time.sleep(0.2)
         a = self.s.read(7)
-        print(a)
+        if(len(a) != 0):
+            print(a)
               
     def readFaceRecog(self):
         self.s.write('$faces')
         time.sleep(0.2)
         b = self.s.read(10)
-        print(b)
+        if(len(b) != 0):
+           print(b)
