@@ -1,6 +1,6 @@
 import hub
 import time
-hub.port.C.mode(hub.port.MODE_FULL_DUPLEX)
+hub.port.C.mode(hub.port.MODE_FULL_DUPLEX) # OpenMV connected to Port C in SPIKE.
 hub.port.C.baud(9600)
 
 a = hub.port.C.read(10) # To discard first read value, which is always '\xff'.
