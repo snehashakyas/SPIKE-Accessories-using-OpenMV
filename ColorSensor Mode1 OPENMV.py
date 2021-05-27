@@ -1,5 +1,5 @@
 # Color Sensor that Sends a Color Name to SPIKE Prime continuosly.
-# March 25 2021, Sneha Shakya
+# May 27 2021, Sneha Shakya
 
 # This code currently allows detection of 3 colors: red, black, and yellow. 
 # More colors to detect can be manually added by determining appropriate color
