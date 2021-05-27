@@ -58,7 +58,7 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
 
 1. (Needed to have uploaded "Combined OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "Combined SPIKE.py" to run on your SPIKE Prime.
-3. Run the code on the SPIKE Prime.
+3. Upload, then run the code on the SPIKE Prime.
 4. Type the following on the REPL:
 
        import openmv
