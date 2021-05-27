@@ -26,6 +26,8 @@ Color detection as the OpenMV camera is being moved around its surroundings. SPI
 5. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
 6. Move the OpenMV camera around to detect colors. The colors detected will show up on the SPIKE Prime.
 
+More colors to detect can be manually added using the instructions on the comment sections of the "ColorSensor Mode1 OPENMV.py" code.
+
 ---------- MODE #2 ----------
 
 User picks a set of LAB color values they would like to sense, and SPIKE pRIME notifies the user when they have scanned the wanted color. 
