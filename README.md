@@ -4,6 +4,13 @@
 2. Face detector.
 3. Menu Options with both Color Sensor and Face Detector.
 
+--------
+
+The code below is specific to the following IDEs:
+
+1. OpenMV IDE for the OpenMV code.
+2. Professor Chris Rogers' ME35 "PyView IDE", Version 0.1b06
+
 For all accessories, the user needs to:
 
 1. Upload the appropriate OpenMV script on it so that the OpenMV code runs automatically when connected. To save the script on the OpenMV, open the IDE code and press: Tools > Save open script to OpenMV Cam, and then Tools > Reset OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions below.
@@ -58,7 +65,7 @@ The user identifies which mode they would like to perform: Color Sensor or Face 
 
 1. (Needed to have uploaded "Combined OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "Combined SPIKE.py" to run on your SPIKE Prime.
-3. Upload, then run the code on the SPIKE Prime.
+3. Upload the code on your SPIKE Prime with the name "openmv.py", then run the code on the SPIKE Prime.
 4. Type the following on the REPL:
 
        import openmv
