@@ -26,23 +26,23 @@ done = True
 
 while(done):
     input = uart.readline()
+    
+    # String manipulation in order to input user's chosen numbers into an array.
     stringInput = str(input)
     length = len(stringInput)
     length = length - 3
-
     concatenatedInput = stringInput[2:2+length]
     array = concatenatedInput.split(' ')
 
     L_Value = array[0]
-
     try:
         A_Value = array[1]
         B_Value = array[-1]
         done = False
     except:
-      print("Length of array is updateing. It is currently " + str(len(array)))
+      print("Length of array is updating. It is currently " + str(len(array)))
 
-
+print("Read in LAB values to detect:")
 print(L_Value, " ", A_Value, " ", B_Value)
 
 # Adding a range to the user's LAB values because external factors can affect color of detected LAB
@@ -53,12 +53,16 @@ AMax = int(A_Value) + 5
 BMin = int(B_Value) - 5
 BMax = int(B_Value) + 5
 
+print("Range of values being searched for: ")
+print(LMin, " ", LMax, " ", AMin, " ", AMax, " ", BMin, " ", BMax)
+
 for i in range(60):
     img = sensor.snapshot()
     img.draw_rectangle(r)
 
 print("Tracking color thresholds... Program will stop when LAB colors are detected.")
 print(" ")
+
 threshold = [50, 50, 0, 0, 0, 0] # Middle L, A, B values to inilialize.
 
 while(sensed == False):
