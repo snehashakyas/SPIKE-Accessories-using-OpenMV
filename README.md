@@ -1,5 +1,7 @@
 # SPIKE Accessories using OpenMV
 
+The OpenMV Cam is a microcontroller board with a camera, which can be coded with Python. In this research project, the OpenMV Cam is developed to be an addition to LEGO Foundation's SPIKE Prime set for robotics learning. This will allow the SPIKE prime set to have the following additional 3 accessories:
+
 1. Color sensors (two different modes).
 2. Face detector.
 3. Menu Options with both Color Sensor and Face Detector.
@@ -9,7 +11,7 @@
 The code below is specific to the following IDEs:
 
 1. OpenMV IDE for the OpenMV code.
-2. Professor Chris Rogers' ME35 "PyView IDE", Version 0.1b06
+2. Professor Chris Rogers' ME35 "PyView IDE", Version 0.1b06, Tufts University
 
 For all accessories, the user needs to:
 
