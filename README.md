@@ -4,7 +4,7 @@ The OpenMV Cam is a microcontroller board with a camera, which can be coded in P
 
 1. Color sensors (two different modes).
 2. Face detector.
-3. Menu Options with both Color Sensor and Face Detector.
+3. Menu Options with both Color Sensor and Face Detector. 
 
 --------
 
