@@ -1,6 +1,6 @@
 # SPIKE Accessories using OpenMV
 
-This project adds additional accessories to the *LEGO Education SPIKE Prime* robotics set using the *OpenMV Cam*. The OpenMV Cam is a microcontroller board with a camera that can be coded in Python. In this research project, the OpenMV Cam is programmed with the LEGO Foundation's SPIKE Prime, which is a LEGO set for robotics education. This research project will allow the SPIKE Prime robotics set to have the following additional 3 accessories:
+This project adds additional accessories to the *LEGO Education SPIKE Prime* robotics set using the *OpenMV Cam*. The OpenMV Cam is a camera with a microcontroller that can be coded in Python. In this research project, the OpenMV Cam is programmed with the LEGO Foundation's SPIKE Prime, which is a LEGO set for robotics education. This research project will allow the SPIKE Prime robotics set to have the following additional 3 accessories:
 
 1. Color sensors (two different modes).
 2. Face detector.
@@ -8,16 +8,16 @@ This project adds additional accessories to the *LEGO Education SPIKE Prime* rob
 
 --------
 
-The code below is specific to the following Integrated Development Environments (IDEs):
+The code in this GitHub project is specific to the following Integrated Development Environments (IDEs):
 
 1. OpenMV IDE for the OpenMV code.
 2. Professor Chris Rogers' ME35 "PyView IDE", Version 0.1b06, Tufts University
 
 For all accessories, the user needs to:
 
-1. Upload an appropriate OpenMV script on the OpenMV Cam so that the code runs automatically when connected. To save the script on the OpenMV, open the IDE code and press: Tools > Save open script to OpenMV Cam, and then Tools > Reset OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions below.
+1. Upload an appropriate OpenMV script on the OpenMV Cam so that the code runs automatically when connected. To save the script on the OpenMV, open the IDE code and press: Tools > Save open script to OpenMV Cam, and then Tools > Reset OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions.
 2. Connect the SPIKE Prime to a computer and run a script or write code on the *REPL* tab to interact with the SPIKE Prime.
-3. Then connect the OpenMV to the computer and SPIKE Prime, as specified on the accessory-specific instructions below.
+3. Then connect the OpenMV to the computer and SPIKE Prime, as specified on the accessory-specific instructions.
 
 --------
 
@@ -28,7 +28,7 @@ The instructions on how to set up and use the color sensor, face detector, and b
 Color Sensor
 ------------
 
-The OpenMV detects the solid block color placed fully enclosed by the OpenMV camera. It then sends the data to a LEGO SPIKE Prime.
+The OpenMV Cam detects a solid block color placed fully enclosed by the OpenMV camera. It then sends the data to a LEGO SPIKE Prime. There are 2 modes for the color sensor.
 
 ---------- MODE #1 ----------
 
