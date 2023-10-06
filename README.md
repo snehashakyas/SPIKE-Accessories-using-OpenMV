@@ -8,7 +8,7 @@ The OpenMV Cam is a microcontroller board with a camera, which can be coded in P
 
 --------
 
-The code below is specific to the following IDEs:
+The code below is specific to the following Integrated Development Environments (IDEs):
 
 1. OpenMV IDE for the OpenMV code.
 2. Professor Chris Rogers' ME35 "PyView IDE", Version 0.1b06, Tufts University
