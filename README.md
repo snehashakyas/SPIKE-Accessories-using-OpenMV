@@ -1,6 +1,6 @@
 # SPIKE Accessories using OpenMV
 
-The OpenMV Cam is a microcontroller board with a camera, which can be coded in Python. In this research project, the OpenMV Cam is programmed with the LEGO Foundation's SPIKE Prime, which is a LEGO set for robotics education. This research project will allow the SPIKE Prime robotics set to have the following additional 3 accessories:
+This project adds additional accessories to the *LEGO Education SPIKE Prime* robotics set using the *OpenMV Cam*. The OpenMV Cam is a microcontroller board with a camera that can be coded in Python. In this research project, the OpenMV Cam is programmed with the LEGO Foundation's SPIKE Prime, which is a LEGO set for robotics education. This research project will allow the SPIKE Prime robotics set to have the following additional 3 accessories:
 
 1. Color sensors (two different modes).
 2. Face detector.
@@ -15,9 +15,15 @@ The code below is specific to the following Integrated Development Environments 
 
 For all accessories, the user needs to:
 
-1. Upload the appropriate OpenMV script on it so that the OpenMV code runs automatically when connected. To save the script on the OpenMV, open the IDE code and press: Tools > Save open script to OpenMV Cam, and then Tools > Reset OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions below.
-2. Connect the SPIKE Prime to their computer and run a script or write code on the REPL to interact with the SPIKE Prime.
-3. Then connect the OpenMV to the computer and SPIKE, as specified on the accessory-specific instructions below.
+1. Upload an appropriate OpenMV script on the OpenMV Cam so that the code runs automatically when connected. To save the script on the OpenMV, open the IDE code and press: Tools > Save open script to OpenMV Cam, and then Tools > Reset OpenMV Cam. The appropriate OpenMV script is specified in the accessory-specific instructions below.
+2. Connect the SPIKE Prime to a computer and run a script or write code on the *REPL* tab to interact with the SPIKE Prime.
+3. Then connect the OpenMV to the computer and SPIKE Prime, as specified on the accessory-specific instructions below.
+
+--------
+
+Accessorry-specific Instructions:
+------------
+The instructions on how to set up and use the color sensor, face detector, and both sensors together are explained below.
 
 Color Sensor
 ------------
