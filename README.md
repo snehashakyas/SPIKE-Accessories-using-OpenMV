@@ -45,10 +45,10 @@ More colors to detect can be manually added using the instructions on the commen
 
 ---------- MODE #2 ----------
 
-User picks a set of LAB color values they would like to sense, and SPIKE pRIME notifies the user when they have scanned the wanted color. 
+User picks a set of LAB color values they would like to sense, and SPIKE PRIME notifies the user when they have scanned the wanted color. 
 
 1. (Needed to have uploaded "ColorSensor Mode2 OPENMV.py" on your OpenMV.)
-2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode2 SPIKE.py" to run on your SPIKE Prime. Input specific LAB values you want to detect in the location indicated in the code.
+2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode2 SPIKE.py" to run on your SPIKE Prime. Input specific LAB color values you want to detect in the location indicated in the code.
 3. Run the code on the SPIKE Prime.
 4. Connect your OpenMV to your computer using a microUSB cable.
 5. Connect the OpenMV to the SPIKE Prime in Port C of the SPIKE Prime using the white wire coming out of the OpenMV.
@@ -57,7 +57,7 @@ User picks a set of LAB color values they would like to sense, and SPIKE pRIME n
 Face Detector
 --------------- 
 
-The OpenMV detects a face, and informs SPIKE Prime once a face has been detected.
+The OpenMV detects a face and informs SPIKE Prime once a face has been detected.
 
 1. (Needed to have uploaded "FaceDetector OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "ColorSensor Mode1 SPIKE.py" to run on your SPIKE Prime.
@@ -69,7 +69,7 @@ The OpenMV detects a face, and informs SPIKE Prime once a face has been detected
 Menu Options with both Color Sensor and Face Detector.
 ----------------
 
-The user identifies which mode they would like to perform: Color Sensor or Face Detector. The appropriate code then runs.
+The user identifies which mode they would like to perform: Color Sensor or Face Detector. The appropriate sensor then runs.
 
 1. (Needed to have uploaded "Combined OPENMV.py" on your OpenMV.)
 2. Connect the SPIKE Prime to your computer using a microUSB cable and open "Combined SPIKE.py" to run on your SPIKE Prime.
